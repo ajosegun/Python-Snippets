@@ -3,7 +3,7 @@ import os
 #import config
 
 
-session = InstaPy(username=os.environ.get(IG_USERNAME), password=os.environ.get(IG_PASSWORD)) #,, headless_browser=True)
+session = InstaPy(username=os.environ["IG_USERNAME"], password=os.environ["IG_PASSWORD"]) #,, headless_browser=True)
 session.login()
 
 session.set_relationship_bounds(enabled=True, max_followers=3000) # Ignore users with >3000 followers
