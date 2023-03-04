@@ -294,3 +294,38 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1677949807060	geckodriver	INFO	Listening on 127.0.0.1:46825
+1677949807186	mozrunner::runner	INFO	Running command: "/opt/hostedtoolcache/firefox/latest/x64/firefox" "--marionette" "-headless" "--remote-debugging-port" "57473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecemvio"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1677949808053	Marionette	INFO	Marionette enabled
+1677949808057	Marionette	INFO	Listening on port 34679
+Read port: 34679
+WebDriver BiDi listening on ws://127.0.0.1:57473
+1677949808194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecemvio/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57473/devtools/browser/ca976475-fe5f-45ac-b54d-bcbf8f410564
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ifnc4/yz/l/en_US/J5k5isEZIAl.js?_nc_x=Ij3Wp8lg5Kz, line 62: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ifnc4/yz/l/en_US/J5k5isEZIAl.js?_nc_x=Ij3Wp8lg5Kz, line 62: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ifnc4/yz/l/en_US/J5k5isEZIAl.js?_nc_x=Ij3Wp8lg5Kz, line 62: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ifnc4/yz/l/en_US/J5k5isEZIAl.js?_nc_x=Ij3Wp8lg5Kz, line 62: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yt/l/en_US/vw7XwRW6ZPW.js?_nc_x=Ij3Wp8lg5Kz, line 30: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yt/l/en_US/vw7XwRW6ZPW.js?_nc_x=Ij3Wp8lg5Kz, line 30: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yt/l/en_US/vw7XwRW6ZPW.js?_nc_x=Ij3Wp8lg5Kz, line 30: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yt/l/en_US/vw7XwRW6ZPW.js?_nc_x=Ij3Wp8lg5Kz, line 30: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript error: https://static.cdninstagram.com/rsrc.php/v3idfH4/ym/l/en_US/lEYCgfGII1I.js?_nc_x=Ij3Wp8lg5Kz, line 989: Error: not eligible for FB login
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
+1677949833283	Marionette	INFO	Stopped listening on port 34679
+ALSA lib seq_hw.c:466:(snd_seq_hw_open) open /dev/snd/seq failed: Permission denied
