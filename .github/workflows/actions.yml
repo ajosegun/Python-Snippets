@@ -1,8 +1,6 @@
 name: run instagram_bot_instapy.py
 
-on:
-  schedule:
-    - cron: '5 * * * *' # At 00:00 on Monday
+on: push
 
 jobs:
   build:
