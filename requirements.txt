@@ -1,3 +1,3 @@
 instapy
 emoji==1.7
-clarifai
+clarifai==2.6.2
