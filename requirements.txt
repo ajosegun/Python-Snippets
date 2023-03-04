@@ -1,1 +1,2 @@
 instapy
+emoji==1.7
