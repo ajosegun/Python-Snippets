@@ -9,11 +9,12 @@ session.login()
 session.set_relationship_bounds(enabled=True, max_followers=3000) # Ignore users with >3000 followers
 session.set_quota_supervisor(enabled=True, peak_comments_daily=240, peak_comments_hourly=21) # Sets limit to avoid IG ban 
 
+print("1")
 
 # session.set_dont_like(["iot", "bot"])
 # session.set_do_follow(True, percentage=25)
 session.set_do_comment(True, comment_liked_photo=True, percentage=50)
-
+print("2")
 comments = ["The pace of progress in artificial intelligence is incredibly fast.",
 "I believe that artificial intelligence we'll augment our intelligence.",
 "Machine learning is set to automate jobs that most people thought could only be done by people.",
@@ -27,6 +28,9 @@ comments = ["The pace of progress in artificial intelligence is incredibly fast.
            ]
 
 session.set_comments(comments)
-
+print("3")
 session.like_by_tags(["coding", "datascience", "ai", "machinelearning"], amount=1)
+
+print("4")
 session.end()
+print("5")
