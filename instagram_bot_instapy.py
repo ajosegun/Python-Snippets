@@ -1,6 +1,6 @@
 from instapy import InstaPy
 import os
-import config
+#import config
 
 
 session = InstaPy(username=os.environ.get(IG_USERNAME), password=os.environ.get(IG_PASSWORD)) #,, headless_browser=True)
