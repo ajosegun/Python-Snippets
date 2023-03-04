@@ -1,0 +1,16 @@
+1677945642929	geckodriver	INFO	Listening on 127.0.0.1:35557
+1677945643275	mozrunner::runner	INFO	Running command: "/opt/hostedtoolcache/firefox/latest/x64/firefox" "--marionette" "-headless" "--remote-debugging-port" "48123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRwbDmu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1677945643606	Marionette	INFO	Marionette enabled
+1677945643609	Marionette	INFO	Listening on port 45171
+Read port: 45171
+WebDriver BiDi listening on ws://127.0.0.1:48123
+1677945643747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRwbDmu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48123/devtools/browser/4207d0cf-d021-4a0e-9d3e-cced079fba48
+1677945646425	Marionette	INFO	Stopped listening on port 45171
