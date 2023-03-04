@@ -23,9 +23,9 @@ jobs:
           pip3 install -r requirements.txt
           
       - name: execute py script # run main.py
-        env:
-          IG_PASSWORD: ${{ secrets.IG_PASSWORD }}
-          IG_USERNAME: ${{ secrets.IG_USERNAME }}
+        #env:
+          #IG_PASSWORD: ${{ secrets.IG_PASSWORD }}
+          #IG_USERNAME: ${{ secrets.IG_USERNAME }}
         run: python instagram_bot_instapy.py
           
       - name: commit files
