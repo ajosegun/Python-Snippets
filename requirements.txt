@@ -1,3 +1,3 @@
-instapy==0.6.15
+instapy==0.6.16
 emoji==1.7
 clarifai==2.6.2
